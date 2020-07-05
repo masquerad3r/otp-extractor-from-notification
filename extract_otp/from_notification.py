@@ -37,7 +37,7 @@ def setup():
 
     print("Setting up the driver...")
 
-    #  Setting the initial fields for opening the messaging app
+    #  Setting the desired capabilities according to our requirements
     desired_cap = {
         "deviceName": "",
         "platformName": "Android",
